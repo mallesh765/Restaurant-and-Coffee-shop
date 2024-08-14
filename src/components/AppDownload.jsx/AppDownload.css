@@ -1,0 +1,70 @@
+.about-us {
+  padding: 40px;
+  max-width: 900px;
+  margin: 40px auto;
+  text-align: left;
+  background-color: #fff5e6;
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-us h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+  color: #6b4f1d;
+  font-family: 'Georgia, serif';
+  text-align: center;
+}
+
+.about-us p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 2rem;
+  color: #4a3c31;
+  font-family: 'Arial, sans-serif';
+}
+
+.address {
+  margin-top: 2.5rem;
+  background-color: #fef8f3;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.address h3 {
+  font-size: 1.8rem;
+  margin-bottom: 0.75rem;
+  color: #6b4f1d;
+  font-family: 'Georgia, serif';
+}
+
+.address p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #4a3c31;
+  font-family: 'Arial, sans-serif';
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .about-us {
+    padding: 20px;
+    margin: 20px auto;
+  }
+
+  .about-us h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .about-us p,
+  .address p {
+    font-size: 1rem;
+  }
+
+  .address h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+}
